@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fergusson college library</title>
+    <link rel="stylesheet" href="bootstrap4\css\bootstrap.css">
+    <link rel="stylesheet" href="style\style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+   <a class="navbar-brand " href="index.html">Fergusson college library</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNav">
+     <ul class="navbar-nav my-2">
+       <li class="nav-item ">
+         <a class="nav-link ml-2 text-light" href="templates\login.php">Login</a>
+       </li>
+     </ul>
+   </div>
+ </nav>
+ <div class="jumbotron">
+   <h2 class="text-center"> Welcome to Senior college library,</h2>
+   <h4 class="text-center text-secondary font-italic my-5"> Search for books </h4>
+   <form class=" my-2" action="templates\searchbook.php" method="post">
+     <div class="form row justify-content-center">
+       <div class="col-auto">
+         <input class="form-control" type="text" name="search" value="" placeholder="Enter book name">
+       </div>
+       <div class="col-auto">
+      <input type="submit" value ="Search" name="Search" class="btn btn-primary">
+
+       </div>
+     </div>
+
+   </form>
+
+ </div>
+ <footer class ="footer bg-dark">
+    <p class="text-center text-light">Library managment system Project by Pranav Gulavani & Vihang Kale</p>
+ </footer>
+ <script src="bootstrap4\js\bootstrap.min.js">
+ </script>
+</body>
+</html>
